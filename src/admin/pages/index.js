@@ -1,0 +1,6 @@
+export * from './MainPage.jsx'
+export * from './ProductsPage.jsx'
+export * from './ProductView.jsx'
+export * from './ProductEdit.jsx'
+export * from './OrdesPage.jsx'
+export * from './OrderPage.jsx'
