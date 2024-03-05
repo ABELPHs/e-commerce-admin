@@ -1,5 +1,4 @@
-
-const apiUrl = 'http://localhost:8080';
+const apiUrl = 'http://ecommerce.us-west-2.elasticbeanstalk.com';
 
 const getToken = () => {
     try {
@@ -172,13 +171,6 @@ class _Put {
         price,
         product_id
     }) => {
-        console.log({
-            name,
-            description,
-            stock,
-            price,
-            product_id
-        })
         return this.call({
             url: `/admin/product/${product_id}`,
             data: {
